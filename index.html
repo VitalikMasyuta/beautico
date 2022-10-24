@@ -37,6 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/982c398aa8.js" crossorigin="anonymous"></script>
 
+    
 </head>
 
 <body>
@@ -47,31 +48,110 @@
                 </p>
                 <div class="header__button_close">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19.3125 2.5625L11.875 10L19.3125 17.4375L17.4375 19.3125L10 11.875L2.5625 19.3125L0.6875 17.4375L8.125 10L0.6875 2.5625L2.5625 0.6875L10 8.125L17.4375 0.6875L19.3125 2.5625Z" fill="white"/>
+                        <path
+                            d="M19.3125 2.5625L11.875 10L19.3125 17.4375L17.4375 19.3125L10 11.875L2.5625 19.3125L0.6875 17.4375L8.125 10L0.6875 2.5625L2.5625 0.6875L10 8.125L17.4375 0.6875L19.3125 2.5625Z"
+                            fill="white" />
                     </svg>
                 </div>
             </div>
         </div>
-        <div class="container-my header__menu">
+        <div class="container-my header_container">
             <div class="header__menu">
                 <nav>
-                    <ul>
+                    <ul class="header__menu_list">
                         <li><a href="#" class="header__menu_link">Product</a></li>
                         <li><a href="#" class="header__menu_link">Story</a></li>
                         <li><a href="#" class="header__menu_link">Blog</a></li>
-                        <li><a href="#" class="header__menu_link">Collections</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="header__menu_link">Collections
+                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z"
+                                        fill="#697586" />
+                                </svg>
+                            </a>
+                            <ul class="header__menu_dropdown">
+                                <li class="dropdown_link"><a href="#">Collection 1</a></li>
+                                <li class="dropdown_link"><a href="#">Collection 2</a></li>
+                                <li class="dropdown_link"><a href="#">Collection 3</a></li>
+                                <li class="dropdown_link"><a href="#">Collection 4</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#" class="header__menu_link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div>
-                <button class="header__menu_button_card"><i class="fa-solid fa-bag-shopping"></i><a href="#">Cart</a></button>
+                <button class="header__menu_button_cart"><a href="#"><i
+                            class="fa-solid fa-bag-shopping"></i>Cart</a></button>
                 <button class="header__menu_button_sabscribe"><a href="#">Sabscribe</a></button>
             </div>
         </div>
-        
     </header>
+    <main>
+        <section class="flex">
+            <div class="section-first">
+                <div class="section-first__main">
+                    <div class="section-first__main_h1">
+                        <div>
+                            <h1>Hydrated skin in 3 easy steps</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique duis Cursus mi quis viverra ornare.
+                            </p>
+                        </div>
+                        <div class="section-first__button">
+                            <button><a href="#">Shop now</a></button>
+                            <button><a href="#">Our Story</a></button>
+                        </div>
+                    </div>
+                    <div class="section-first__advertising">
+                        <div class="section-first__advertising_text">
+                            <p>Trusted by the world's best companies</p>
+                        </div>
+                        <div class="section-first__advertising_logo">
+                            <img src="./img/Frame.svg" alt="Logoipsam">
+                            <img src="./img/Frame2.svg" alt="Logoipsam">
+                            <img src="./img/Frame3.svg" alt="Logoipsam">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/maintitle.png">
+                </div>
+            </div>
+            <div class="after">
 
+            </div>
+        </section>
+        <section class="about-as">
+            <div class="title__icon">
+                <p>About us</p>
+            </div>
+            <div class="about-as__h2">
+                <h2>The beautiful story</h2>
+            </div>
+            <div class="about-as__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim 
+                    in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor 
+                    interdum nulla, ut commodo diam libero vitae erat.
+                </p>
+            </div>
+            <div class="about-as_button">
+                <button><a href="#">Our story</a></button>
+                <button><a href="#">Contact us</a></button>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+        </script>
+    
 </body>
 
 </html>
