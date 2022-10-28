@@ -1277,8 +1277,9 @@ h2 {
 }
 
 .bottom_card__link:hover {
-    font-size: 16px;
-    color: #111827;
+    font-size: 18px;
+    line-height: 28px;
+    color: #CF4D74;
 }
 
 
