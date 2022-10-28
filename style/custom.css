@@ -14,7 +14,6 @@ font-family: 'Roboto', sans-serif; */
 
 .header__close {
     width: 100%;
-    max-width: 1440px;
     background: #6244A3;
     margin-bottom: 15px;
 }
@@ -201,7 +200,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
 }
 
 
@@ -574,12 +573,12 @@ h2 {
 .card__group_card_body img {
     padding-top: 45px;
     padding-bottom: 67px;
+    width: 395px;
 }
 
 .card__title {
     display: flex;
     justify-content: space-between;
-    width: 395px;
     padding: 0px 16px;
 }
 

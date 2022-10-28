@@ -1,0 +1,201 @@
+@media (max-width: 1267px) {
+    .main_img {
+        width: 600px;
+    }
+    .card__group_card_body {
+        margin-right: 17px;
+    }
+    .card__big_card_body img{
+        width: 594px;
+    }
+    .section_face_text_general {
+        margin: 0px 20px 156px;
+    }
+    .reviews__card_group_columns {
+        margin-right: 8px;
+    }
+    .section_acordion__flex {
+        justify-content: space-evenly;
+    }
+    .section_blog__flex {
+        padding: 0px 20px;
+    }
+    .bottom_card {
+        justify-content: space-around;
+    }
+    .bottom_card__background {
+        width: 374px;
+    }
+    .bottom_card__background img {
+        width: 374px;
+    }
+    .footer_block_flex {
+        padding: 0px 20px;
+    }
+    .footer_developer {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .header_container {
+        justify-content: space-between;
+    }
+    .header__menu {
+        margin: 0px;
+    }
+    .header__menu_list {
+        padding-left: 80px;
+    }
+    .main_img {
+        width: 505px;
+    }
+    .section-first {
+        margin: 0px auto 25px;
+    }
+    .section-first__advertising {
+        margin-bottom: 6px;
+    }
+    .slider_padding {
+        padding-bottom: 25px;
+    }
+    .card__group_card_body {
+        max-width: 350px;
+    }
+    .card__group_card_body img {
+        max-width: 350px;
+    }
+    .card__button button {
+        width: 320px;
+    }
+    .reviews__card_text {
+        max-width: 289px;
+    }
+    .accordion-flush .accordion-item .accordion-button {
+        max-width: 637px;
+    }
+    .accordion-body {
+        max-width: 637px;
+    }
+    .section_acordion__text_text {
+        max-width: 443px;
+    }
+    .section_acordion {
+        padding: 0px 20px;
+    }
+    .bottom_card__background {
+        width: 350px;
+    }
+    .bottom_card__background img {
+        width: 350px;
+    }
+    .bottom_slide img {
+        height: 200px;
+        width: 200px
+        ;
+    }
+    .bottom_slider .bottom_slide {
+        width: 200px;
+        height: 200px;
+    }
+    .bottom_slider .bottom_slide-track {
+        width: 2592px;
+    }
+    @keyframes scrolla {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-1296px);
+        }
+    }
+    .card__big_card_body img {
+        width: 500px
+        ;
+    }
+}
+
+@media (max-width: 1048px) {
+    h1 {
+        font-size: 48px;
+    }
+    .section-first__main_h1 p {
+        font-size: 16px;
+    }
+    .card__group_card_body {
+        width: 300px;
+    }
+    .card__group_card_body img {
+        width: 300px;
+    }
+    .card__button button {
+        width: 269px;
+    }
+    .section_how_it_works__card {
+        margin-right: 15px;
+    }
+    .section_how_it_works__card_text {
+        max-width: 300px;
+    }
+    .section_face_text__img img {
+        width: 400px;
+    }
+    .section_face_text__block_item {
+        margin-top: 0px;
+    }
+    .section_face_text_general {
+        align-items: center;
+    }
+    .section_face_text__img_old img {
+        width: 400px;
+    }
+    .section_face_text__block_item_old {
+        margin-top: 0px;
+    }
+    .section_acordion__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_acordion__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_acordion__text_title {
+        max-width: 650px;
+    }
+    .section_acordion__text_text {
+        max-width: 515px;
+        text-align: center;
+    }
+    .section_acordion__text_button {
+        margin-bottom: 30px;
+    }
+    .section_blog__flex {
+        padding: 0px 35px;
+    }
+    .bottom_card__body {
+        max-width: 300px;
+        min-height: 450px;
+    }
+    .bottom_card__background img {
+        max-width: 300px;
+    }
+    .pages_margin {
+        margin-right: 56px;
+    }
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cms_margin {
+        margin-right: 33px;
+    }
+    .card__big_card_body img {
+        width: 400px;
+    }
+    .card__big_card_body {
+        width: min-content;
+    }
+}
