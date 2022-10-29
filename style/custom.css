@@ -141,8 +141,8 @@ font-family: 'Roboto', sans-serif; */
 .header__menu_button_sabscribe {
     width: 119px;
     height: 42px;
-    background: #FFFFFF;
-    border: 1px solid #CDD5DF;
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
     border-radius: 64px;
 }
 
@@ -153,7 +153,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    color: #202939;
+    color: #FFFFFF;
     padding: 11px 17px;
 }
 
@@ -179,13 +179,13 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .header__menu_button_sabscribe:hover {
-    background: #CF4D74;
-    border: 1px solid #CF4D74;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
 }
 
 .header__menu_button_sabscribe:hover a {
-    color: #FFFFFF;
+    color: #202939;
 }
 
 .flex {
@@ -238,7 +238,7 @@ h1 {
     max-width: 545px;
 }
 
-.section-first__button button {
+.button_our_story {
     min-width: 138px;
     height: 58px;
     border: 1px solid #CDD5DF;
@@ -247,18 +247,7 @@ h1 {
     background: #FFFFFF;
     margin-right: 8px;
 }
-
-.button_shop_now {
-    width: 147px;
-}
-
-.section-first__button button:hover {
-    background: #CF4D74;
-    border: 1px solid #CF4D74;
-    border-radius: 64px;
-}
-
-.section-first__button a {
+.button_our_story a {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -269,9 +258,45 @@ h1 {
     padding: 18px 24px;
 }
 
-.section-first__button a:hover {
+.button_shop_now {
+    width: 147px;
+    height: 58px;
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
+    border-radius: 64px;
     color: #FFFFFF;
 }
+.button_shop_now a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 18px 24px;
+}
+.button_shop_now:hover {
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
+    color: #202939;
+}
+
+.button_our_story:hover {
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
+    border-radius: 64px;
+}
+
+
+.button_our_story a:hover {
+    color: #FFFFFF;
+}
+.button_shop_now:hover a {
+    color: #202939;
+}
+
 
 .section-first__advertising {
     display: flex;
@@ -877,9 +902,8 @@ h2 {
 }
 
 .section_face_text__block_link:hover {
-    font-size: 18px;
-    line-height: 28px;
-    color: #CF4D74;
+    border-bottom: 1px solid #CF4D74;
+    color: #202939;
 }
 
 .section_face_text__img_old {
@@ -1057,21 +1081,21 @@ h2 {
 .section_acordion__text_button {
     min-width: 138px;
     height: 58px;
-    border: 1px solid #CDD5DF;
-    border-radius: 64px;
-    background: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #202939;
-}
-
-.section_acordion__text_button:hover {
     background: #CF4D74;
     border: 1px solid #CF4D74;
     border-radius: 64px;
     color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section_acordion__text_button:hover {
+    border: 1px solid #CDD5DF;
+    border-radius: 64px;
+    background: #FFFFFF;
+    color: #202939;
 }
 
 .accordion-button {
@@ -1276,9 +1300,8 @@ h2 {
 }
 
 .bottom_card__link:hover {
-    font-size: 18px;
-    line-height: 28px;
-    color: #CF4D74;
+    border-bottom: 1px solid #CF4D74;
+    color: #202939;
 }
 
 
@@ -1376,14 +1399,21 @@ h2 {
 }
 
 .footer__block_email::placeholder {
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
+    padding-left: 5px;
+}
+input[type="email"] {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    padding-left: 5px;
 }
 
 .footer__block_button {
-    background: #FFFFFF;
-    border: 1px solid #CDD5DF;
+    background: #CF4D74;
+    border: 1px solid #CF4D74;
     border-radius: 64px;
-    color: #202939;
+    color: #FFFFFF;
     min-width: 143px;
     height: 58px;
     font-family: 'Inter', sans-serif;
@@ -1393,10 +1423,10 @@ h2 {
 }
 
 .footer__block_button:hover {
-    background: #CF4D74;
-    border: 1px solid #CF4D74;
+    background: #FFFFFF;
+    border: 1px solid #CDD5DF;
     border-radius: 64px;
-    color: #FFFFFF;
+    color: #202939;
 }
 
 .footer__block_text_bottom {
